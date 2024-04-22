@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1
+{
+    font-size: 50px;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+#header
+{
+    height: 61px;
+    background-color: #0F2C59;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left-header
+{
+    width: 30%;
+    float: left;
+}
+
+#right-header
+{
+    margin-left: 30%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 25px 0px
+}
+
+nav ul
+{
+    float: right;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li
+{
+    display: inline;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+
+.dropbtn {
+    background-color: #0F2C59;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+a:link
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover
+{
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn
+{
+    background-color: #0F2C59;
+}
+
+.titlepart
+{
+    background-color: #d1def1;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#maintitle
+{
+    font-size: 120px;
+    color: #0F2C59;
+    height: 90px;
+    margin: 0;
+    padding: 110px 0px 0px 0px;
+}
+#maininfo
+{   
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding: 40px 200px 0px 200px;
+}
+#searchbar
+{
+    padding: 25px 0px 0px 0px;
+}
+#searchfield
+{
+    height:30px;
+    width:400px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+#explore
+{
+    padding: 40px 0px 0px 0px;
+}
+#explorebutton
+{   
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    background-color:#d1def1; /* Gray background for all carousel items */
+    color: white; /* White text color */
+  }
+  
+  .carousel-item img {
+    object-fit: contain; /* Ensure images fit without cropping and maintain aspect ratio */
+    height: 400px; /* Set a specific height if necessary */
+    width: 100%; /* Full width to cover carousel */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #000000; /* Black background for navigation buttons */
+  }
+  
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: #555555; /* Darker shade when hovered */
+  }
+  
+  .carousel-indicators button {
+    background-color: #ffffff; /* White indicators */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #000000; /* Black active indicator */
+  }
+  .container-fluid{
+    background-color: #0F2C59;
+    margin: 0px 0px 0px 20px;
+  }
+  

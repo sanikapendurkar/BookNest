@@ -1,0 +1,43 @@
+#part
+{
+    width: 100%;
+    padding-top: 10px;
+    border: 2px solid #0F2C59;
+    border-bottom: 0px;
+    background-color: #C4D9F9;
+    padding-left: 10px;
+}
+
+#par
+{
+    width: 100%;
+    padding-top: 10px;
+    border: 2px solid #0F2C59;
+    border-top: 0px;
+    background-color: #C4D9F9;
+    padding-left: 10px;
+}
+
+.tb
+{
+    width: 100%;
+    text-align: left;
+    float: left;
+    width: 50%;
+    height:250px;
+    padding-left: 20px;
+}
+
+.text-box
+{
+    text-align: center;
+    margin-left:50%;
+    width: 50%;
+    height:250px;
+}
+
+img
+{
+    border: 2px solid #0F2C59;
+    padding: 10px;
+}
